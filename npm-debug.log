@@ -1,0 +1,82 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'node-mon', '-g' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose cache add [ 'node-mon', null ]
+5 verbose cache add name=undefined spec="node-mon" args=["node-mon",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'node-mon',
+6 verbose parsed url   path: 'node-mon',
+6 verbose parsed url   href: 'node-mon' }
+7 silly lockFile 131da424-node-mon node-mon
+8 verbose lock node-mon /Users/ff/.npm/131da424-node-mon.lock
+9 silly lockFile 131da424-node-mon node-mon
+10 silly lockFile 131da424-node-mon node-mon
+11 verbose addNamed [ 'node-mon', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 4460a309-node-mon node-mon@
+14 verbose lock node-mon@ /Users/ff/.npm/4460a309-node-mon.lock
+15 silly addNameRange { name: 'node-mon', range: '*', hasData: false }
+16 verbose request where is /node-mon
+17 verbose request registry https://registry.npmjs.org/
+18 verbose request id 41e468ad89b15428
+19 verbose url raw /node-mon
+20 verbose url resolving [ 'https://registry.npmjs.org/', './node-mon' ]
+21 verbose url resolved https://registry.npmjs.org/node-mon
+22 verbose request where is https://registry.npmjs.org/node-mon
+23 info trying registry request attempt 1 at 12:33:40
+24 http GET https://registry.npmjs.org/node-mon
+25 http 404 https://registry.npmjs.org/node-mon
+26 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+26 verbose headers   'content-type': 'application/json',
+26 verbose headers   'cache-control': 'max-age=0',
+26 verbose headers   'content-length': '51',
+26 verbose headers   'accept-ranges': 'bytes',
+26 verbose headers   date: 'Fri, 29 May 2015 04:22:38 GMT',
+26 verbose headers   via: '1.1 varnish',
+26 verbose headers   age: '0',
+26 verbose headers   connection: 'keep-alive',
+26 verbose headers   'x-served-by': 'cache-lax1431-LAX',
+26 verbose headers   'x-cache': 'MISS',
+26 verbose headers   'x-cache-hits': '0',
+26 verbose headers   'x-timer': 'S1432873358.412067,VS0,VE86' }
+27 silly registry.get cb [ 404,
+27 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'cache-control': 'max-age=0',
+27 silly registry.get     'content-length': '51',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     date: 'Fri, 29 May 2015 04:22:38 GMT',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '0',
+27 silly registry.get     connection: 'keep-alive',
+27 silly registry.get     'x-served-by': 'cache-lax1431-LAX',
+27 silly registry.get     'x-cache': 'MISS',
+27 silly registry.get     'x-cache-hits': '0',
+27 silly registry.get     'x-timer': 'S1432873358.412067,VS0,VE86' } ]
+28 silly lockFile 4460a309-node-mon node-mon@
+29 silly lockFile 4460a309-node-mon node-mon@
+30 error 404 404 Not Found: node-mon
+30 error 404
+30 error 404 'node-mon' is not in the npm registry.
+30 error 404 You should bug the author to publish it
+30 error 404
+30 error 404 Maybe try 'npm search mon'
+30 error 404
+30 error 404 Note that you can also install from a
+30 error 404 tarball, folder, or http url, or git url.
+31 error System Darwin 13.4.0
+32 error command "node" "/usr/local/bin/npm" "install" "node-mon" "-g"
+33 error cwd /Users/ff/aifanfou/blog
+34 error node -v v0.10.32
+35 error npm -v 1.4.28
+36 error code E404
+37 verbose exit [ 1, true ]

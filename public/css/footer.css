@@ -1,0 +1,16 @@
+.footer{
+border-top: 0 none;
+background-color:rgb(48, 191, 236);
+color: #fff;
+}
+.footer ul {
+margin: 20px 0;
+}
+.footer li {
+display: inline;
+border-right: 1px solid #fff;
+padding: 0 8px;
+}
+.footer li a{
+color: #fff;
+}

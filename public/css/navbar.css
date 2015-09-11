@@ -1,0 +1,27 @@
+.nav-brand {vertical-align: -15px;}
+.nav-brand img{width: 35px;}
+a:hover{text-decoration: none;}
+pre{font-size: 14px;background: #fff;border-radius: 0px;}
+.navbar{border-radius: 0px;}
+.navbar-inverse {
+	background-color: rgb(48, 191, 236);
+	border:none;
+}
+.navbar-inverse .navbar-nav>li>a {
+	color: #fff;
+    cursor:pointer;
+}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
+	color: #fff;
+	background-color: rgba(56, 44, 44, 0.04);
+}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+	background-color: #0EE7F0;outline: none;
+}
+.navbar-inverse .navbar-toggle {
+	border-color: rgba(90, 202, 189, 0.58);
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+	border-color: rgba(40, 192, 180, 0.35)
+}
+.modal-title{text-align: center;}
